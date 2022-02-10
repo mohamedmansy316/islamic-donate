@@ -298,17 +298,20 @@ nav {
 @media screen and (max-width:768px) {
   #first-donate-section{
     .image-container{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/12.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/15.jpeg");
+      background-position: center;
   }
   }
   #second-donate-section{
     .image-container{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/13.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/16.jpeg");
+      background-position: center;
   }
   }
   #third-donate-section{
     .image-container{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/14.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/17.jpeg");
+      background-position: center;
   }
   }
 }
