@@ -170,7 +170,7 @@ body {
 
 nav {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  padding: 35px 0px !important;
+  padding: 10px 0px !important;
 }
 nav img {
   width: 185px;
@@ -310,16 +310,28 @@ nav .nav-item {
   background-color: #3d8cfe;
   padding: 50px;
   color: #FFF;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 35px;
+  direction: rtl;
+  font-weight: 700;
+}
+.services-header:hover {
+  color: #FFF;
 }
 @media screen and (max-width: 768px) {
   .services-header {
-    margin: 0;
-    margin-top: 50px;
+    margin: 50px 0;
     text-align: center;
     background-color: #3d8cfe;
-    padding: 50px 10px;
+    padding: 50px;
     color: #FFF;
-    font-size: 20px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
   }
 }
 
@@ -357,7 +369,7 @@ nav .nav-item {
   text-align: center;
 }
 #first-donate-section img, #second-donate-section img, #third-donate-section img {
-  width: 75%;
+  width: 100%;
 }
 #first-donate-section b, #second-donate-section b, #third-donate-section b {
   font-size: 18px;
@@ -447,17 +459,17 @@ nav .nav-item {
 
 @media screen and (max-width: 768px) {
   #first-donate-section .image-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/15.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/7.jpg");
     background-position: center;
   }
 
   #second-donate-section .image-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/16.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/12.jpg");
     background-position: center;
   }
 
   #third-donate-section .image-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/17.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/13.jpg");
     background-position: center;
   }
 }
