@@ -17,15 +17,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-let loader = document.querySelector('.loader');
-function Loader() {
-  setTimeout(function(){ 
-    loader.style.visibility = 'hidden';
-    loader.style.opacity = 0;
-    loader.style.transition = "all 1s";
-    document.body.style.height = "auto";
-    document.getElementsByTagName('html')[0].style.overflowX = "hidden";
-    document.getElementsByTagName('html')[0].style.overflowY = "auto";
-  }, 3000);
-}
-Loader();
