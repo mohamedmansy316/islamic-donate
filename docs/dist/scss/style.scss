@@ -172,8 +172,8 @@ nav {
     margin: 0;
   }
   img{
-    width: 50%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 46%;
+    // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 282px;
     -webkit-border-radius: 282px;
     -moz-border-radius: 282px;
@@ -230,7 +230,7 @@ nav {
     font-weight: 700;
   }
 }
-#first-donate-section , #second-donate-section , #third-donate-section {
+#first-donate-section , #second-donate-section , #third-donate-section ,#fifth-donate-section{
   margin-top: 90px;
   .container{
     background-color: #F1F1F1;
@@ -367,6 +367,12 @@ nav {
   #third-donate-section{
     .image-container{
       background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/13.jpg");
+      background-position: center;
+  }
+  }
+  #fifth-donate-section{
+    .image-container{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.705)),url("../images/14.jpg");
       background-position: center;
   }
   }

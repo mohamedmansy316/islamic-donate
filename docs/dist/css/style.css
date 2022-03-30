@@ -315,8 +315,7 @@ nav .nav-item {
   margin: 0;
 }
 #partners-logos img {
-  width: 50%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 46%;
   border-radius: 282px;
   -webkit-border-radius: 282px;
   -moz-border-radius: 282px;
@@ -374,15 +373,15 @@ nav .nav-item {
   }
 }
 
-#first-donate-section, #second-donate-section, #third-donate-section {
+#first-donate-section, #second-donate-section, #third-donate-section, #fifth-donate-section {
   margin-top: 90px;
 }
-#first-donate-section .container, #second-donate-section .container, #third-donate-section .container {
+#first-donate-section .container, #second-donate-section .container, #third-donate-section .container, #fifth-donate-section .container {
   background-color: #F1F1F1;
   border-radius: 17px;
   position: relative;
 }
-#first-donate-section .image-container, #second-donate-section .image-container, #third-donate-section .image-container {
+#first-donate-section .image-container, #second-donate-section .image-container, #third-donate-section .image-container, #fifth-donate-section .image-container {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -395,7 +394,7 @@ nav .nav-item {
   justify-content: center;
   align-items: center;
 }
-#first-donate-section h2, #second-donate-section h2, #third-donate-section h2 {
+#first-donate-section h2, #second-donate-section h2, #third-donate-section h2, #fifth-donate-section h2 {
   font-size: 22px;
   font-weight: 700;
   color: white;
@@ -407,49 +406,49 @@ nav .nav-item {
   width: 93%;
   text-align: center;
 }
-#first-donate-section img, #second-donate-section img, #third-donate-section img {
+#first-donate-section img, #second-donate-section img, #third-donate-section img, #fifth-donate-section img {
   width: 100%;
 }
-#first-donate-section b, #second-donate-section b, #third-donate-section b {
+#first-donate-section b, #second-donate-section b, #third-donate-section b, #fifth-donate-section b {
   font-size: 18px;
   margin-bottom: 12px;
   display: inline-block;
   color: #3d8cfe;
 }
-#first-donate-section b:last-of-type, #second-donate-section b:last-of-type, #third-donate-section b:last-of-type {
+#first-donate-section b:last-of-type, #second-donate-section b:last-of-type, #third-donate-section b:last-of-type, #fifth-donate-section b:last-of-type {
   margin: 0px;
 }
-#first-donate-section p, #second-donate-section p, #third-donate-section p {
+#first-donate-section p, #second-donate-section p, #third-donate-section p, #fifth-donate-section p {
   font-size: 15px;
   margin-bottom: 25px;
   color: black;
   line-height: 2.5;
 }
-#first-donate-section p:last-of-type, #second-donate-section p:last-of-type, #third-donate-section p:last-of-type {
+#first-donate-section p:last-of-type, #second-donate-section p:last-of-type, #third-donate-section p:last-of-type, #fifth-donate-section p:last-of-type {
   margin: 0px;
 }
-#first-donate-section ul, #first-donate-section ol, #second-donate-section ul, #second-donate-section ol, #third-donate-section ul, #third-donate-section ol {
+#first-donate-section ul, #first-donate-section ol, #second-donate-section ul, #second-donate-section ol, #third-donate-section ul, #third-donate-section ol, #fifth-donate-section ul, #fifth-donate-section ol {
   color: black;
   line-height: 2.3;
 }
-#first-donate-section .nav-pills .nav-link.active, #first-donate-section .nav-pills .show > .nav-link, #second-donate-section .nav-pills .nav-link.active, #second-donate-section .nav-pills .show > .nav-link, #third-donate-section .nav-pills .nav-link.active, #third-donate-section .nav-pills .show > .nav-link {
+#first-donate-section .nav-pills .nav-link.active, #first-donate-section .nav-pills .show > .nav-link, #second-donate-section .nav-pills .nav-link.active, #second-donate-section .nav-pills .show > .nav-link, #third-donate-section .nav-pills .nav-link.active, #third-donate-section .nav-pills .show > .nav-link, #fifth-donate-section .nav-pills .nav-link.active, #fifth-donate-section .nav-pills .show > .nav-link {
   background-color: #3d8cfe;
 }
 @media screen and (min-width: 768px) {
-  #first-donate-section .tab-content, #first-donate-section .nav-pills, #second-donate-section .tab-content, #second-donate-section .nav-pills, #third-donate-section .tab-content, #third-donate-section .nav-pills {
+  #first-donate-section .tab-content, #first-donate-section .nav-pills, #second-donate-section .tab-content, #second-donate-section .nav-pills, #third-donate-section .tab-content, #third-donate-section .nav-pills, #fifth-donate-section .tab-content, #fifth-donate-section .nav-pills {
     display: none;
   }
-  #first-donate-section .container, #second-donate-section .container, #third-donate-section .container {
+  #first-donate-section .container, #second-donate-section .container, #third-donate-section .container, #fifth-donate-section .container {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
-  #first-donate-section .image-container, #second-donate-section .image-container, #third-donate-section .image-container {
+  #first-donate-section .image-container, #second-donate-section .image-container, #third-donate-section .image-container, #fifth-donate-section .image-container {
     height: 100%;
     background-image: none;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #first-donate-section h2, #second-donate-section h2, #third-donate-section h2 {
+  #first-donate-section h2, #second-donate-section h2, #third-donate-section h2, #fifth-donate-section h2 {
     font-size: 23px;
     font-weight: 700;
     position: absolute;
@@ -463,7 +462,7 @@ nav .nav-item {
     z-index: -1;
     text-align: center;
   }
-  #first-donate-section img, #second-donate-section img, #third-donate-section img {
+  #first-donate-section img, #second-donate-section img, #third-donate-section img, #fifth-donate-section img {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -471,27 +470,27 @@ nav .nav-item {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
   }
-  #first-donate-section b, #second-donate-section b, #third-donate-section b {
+  #first-donate-section b, #second-donate-section b, #third-donate-section b, #fifth-donate-section b {
     font-size: 19px;
   }
-  #first-donate-section p, #second-donate-section p, #third-donate-section p {
+  #first-donate-section p, #second-donate-section p, #third-donate-section p, #fifth-donate-section p {
     font-size: 16px;
   }
-  #first-donate-section .row:first-of-type, #second-donate-section .row:first-of-type, #third-donate-section .row:first-of-type {
+  #first-donate-section .row:first-of-type, #second-donate-section .row:first-of-type, #third-donate-section .row:first-of-type, #fifth-donate-section .row:first-of-type {
     flex-direction: row-reverse;
   }
 }
 @media screen and (max-width: 768px) {
-  #first-donate-section, #second-donate-section, #third-donate-section {
+  #first-donate-section, #second-donate-section, #third-donate-section, #fifth-donate-section {
     margin: 0;
   }
-  #first-donate-section .container, #second-donate-section .container, #third-donate-section .container {
+  #first-donate-section .container, #second-donate-section .container, #third-donate-section .container, #fifth-donate-section .container {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
-  #first-donate-section .image-container img, #second-donate-section .image-container img, #third-donate-section .image-container img {
+  #first-donate-section .image-container img, #second-donate-section .image-container img, #third-donate-section .image-container img, #fifth-donate-section .image-container img {
     display: none;
   }
-  #first-donate-section .content, #second-donate-section .content, #third-donate-section .content {
+  #first-donate-section .content, #second-donate-section .content, #third-donate-section .content, #fifth-donate-section .content {
     display: none;
   }
 }
@@ -509,6 +508,11 @@ nav .nav-item {
 
   #third-donate-section .image-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/13.jpg");
+    background-position: center;
+  }
+
+  #fifth-donate-section .image-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.705)), url("../images/14.jpg");
     background-position: center;
   }
 }
